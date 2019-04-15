@@ -3,7 +3,6 @@
 ####  qitas@qitas.cn
 #### 父级：[STM32](https://github.com/sochub/STM32)
 #### 归属：[arm cortex M7](https://github.com/sochub/CM7)
-#### 近似：[MCS-51](https://github.com/sochub/MCS-51)
 
 ## [描述](https://github.com/sochub/STM32H750/wiki) 
 

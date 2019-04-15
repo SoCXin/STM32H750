@@ -1,12 +1,11 @@
-﻿# [STM32H750](https://github.com/mcuyun/STM32H750) 
+﻿# [STM32H750](https://github.com/sochub/STM32H750) 
+[![sites](SoC/SoC.png)](http://www.qitas.cn) 
+####  qitas@qitas.cn
+#### 父级：[STM32](https://github.com/sochub/STM32)
+#### 归属：[arm cortex M7](https://github.com/sochub/CM7)
+#### 近似：[MCS-51](https://github.com/sochub/MCS-51)
 
-[![sites](mcuyun/mcuyun.png)](http://www.mcuyun.com)
-
-#### 归属：[cortex M7系列](https://github.com/mcuyun/CM7)
-#### [关于悠云](https://github.com/mcuyun/whyme)可访问 www.mcuyun.com
-
-
-## [简介](https://github.com/mcuyun/STM32H750/wiki)
+## [描述](https://github.com/sochub/STM32H750/wiki) 
 
 400 MHz CPU主频下从Flash 执行程序，STM32H750 超值系列能够实现 2020 CoreMark/856 DMIPS的性能，利用其 L1 缓存实现了零等待执行。DSP 指令集和双精度 FPU 扩大了其应用范围。得益于 L1 缓存（16 KB + 16 KB 的指令缓存和数据缓存），即使使用外部存储器也不会带来性能损失。
 
@@ -18,22 +17,20 @@
 
 STM32H750 超值系列提供 128 KB Flash 和采用分散架构的 1 MB SRAM：用于在最低功耗模式下保存数据的 192 KB TCM RAM（包括 64 KB 的 ITCM RAM 和 128 KB 的 DTCM RAM，用于时间关键型程序和数据）、512 KB、288 KB 和 64 KB 的用户 SRAM 以及 4 KB 的备份域 SRAM，此系列采用BGA 和 LQFP 规范的 LQFP100、UFBGA176 和 TFBGA240引脚封装。
 
-### [STM32平台](https://github.com/mcuyun/STM32)
+[![sites](SoC/STM32H750.png)](https://www.st.com/zh/microcontrollers-microprocessors/stm32h750-value-line.html) 
 
+### [资源收录](https://github.com/sochub/STM32H750)
 
-#### [Q系统](https://github.com/OS-Q)
+- [文档](docs/)
+- [资源](src/)
+- [工程](project/)
 
+### [替代方案](https://github.com/sochub/STM32H750)
 
-#### [参考资料](docs/)
+- [RT1052](https://github.com/sochub/RT1052)
+- [STM32H743](https://github.com/sochub/STM32H743)  
 
-包括芯片相关资料
- 
-
-
----
-
-###  [悠云，为嵌入式](http://www.mcuyun.com)   
-###  qitas@qitas.cn
+##  [SoC开发平台](http://www.qitas.cn)  
 
 
 

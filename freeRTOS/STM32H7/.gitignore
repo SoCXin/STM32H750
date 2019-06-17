@@ -1,0 +1,7 @@
+Debug/
+settings/
+STM32H7/
+Backup*
+*.ewt
+*.dep
+*.ewd

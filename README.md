@@ -1,10 +1,12 @@
-﻿# [STM32H750](https://github.com/sochub/STM32H750) 
+﻿# [STM32H750](https://github.com/sochub/STM32H750)
 [![sites](SoC/SoC.png)](http://www.qitas.cn) 
-####  qitas@qitas.cn
+#### 厂商：[ST](https://github.com/sochub/ST)
 #### 父级：[STM32](https://github.com/sochub/STM32)
-#### 归属：[arm cortex M7](https://github.com/sochub/CM7)
+#### 归属：[cortex M7](https://github.com/sochub/CM7)
 
 ## [描述](https://github.com/sochub/STM32H750/wiki) 
+
+[STM32H750](https://github.com/sochub/STM32H750)是[STM32H7](https://www.st.com/zh/microcontrollers-microprocessors/stm32h7-series.html)系列中的高性价比产品，参考售价2.69美金，用于对标RT1052产品，通过降低内部FLASH的配置，获得超高的性价比。
 
 400 MHz CPU主频下从Flash 执行程序，STM32H750 超值系列能够实现 2020 CoreMark/856 DMIPS的性能，利用其 L1 缓存实现了零等待执行。DSP 指令集和双精度 FPU 扩大了其应用范围。得益于 L1 缓存（16 KB + 16 KB 的指令缓存和数据缓存），即使使用外部存储器也不会带来性能损失。
 
@@ -22,7 +24,7 @@ STM32H750 超值系列提供 128 KB Flash 和采用分散架构的 1 MB SRAM：�
 
 - [文档](docs/)
 - [资源](src/)
-- [工程](project/)
+- [freeRTOS工程](freeRTOS/)
 
 ### [替代方案](https://github.com/sochub/STM32H750)
 

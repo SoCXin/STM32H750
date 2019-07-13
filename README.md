@@ -17,12 +17,13 @@
 
 STM32H750 超值系列提供 128 KB Flash 和采用分散架构的 1 MB SRAM：用于在最低功耗模式下保存数据的 192 KB TCM RAM（包括 64 KB 的 ITCM RAM 和 128 KB 的 DTCM RAM，用于时间关键型程序和数据）、512 KB、288 KB 和 64 KB 的用户 SRAM 以及 4 KB 的备份域 SRAM，此系列采用BGA 和 LQFP 规范的 LQFP100、UFBGA176 和 TFBGA240引脚封装。
 
-[![sites](SoC/STM32H750.png)](https://www.st.com/zh/microcontrollers-microprocessors/stm32h750-value-line.html) 
+[![sites](SoC/STM32H750.png)](https://www.st.com/zh/microcontrollers-microprocessors/stm32h7-series.html) 
 
 ### 关键特性
 
 [![sites](SoC/stm32h750.jpg)](https://www.st.com/en/microcontrollers-microprocessors/stm32h750vb.html) 
 
+[![sites](SoC/STM32HP.jpg)](https://www.st.com/zh/microcontrollers-microprocessors/stm32h750-value-line.html) 
 
 ### [收录资源](https://github.com/sochub/STM32F405)
 

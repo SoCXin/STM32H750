@@ -35,10 +35,12 @@ STM32H750 超值系列提供 128 KB Flash 和采用分散架构的 1 MB SRAM：�
 
 * [编译工具](https://github.com/sochub/arm-none-eabi)
 
-### [替代方案](https://github.com/sochub/STM32H750)
+### [选型建议](https://github.com/sochub)
 
-- [RT1052](https://github.com/sochub/RT1052)
-- [STM32H743](https://github.com/sochub/STM32H743)  
+[STM32H750](https://github.com/sochub/STM32H750)最为高性价产品，在向下覆盖的情况下十分具有应用价值，携带的大量外设极大降低了相应成本，而该系列的3款产品差异只体现在封装和普通IO上面。
+
+- 对标产品 [RT1052](https://github.com/sochub/RT1052)
+- 内部集成FLASH [STM32H743](https://github.com/sochub/STM32H743)  
 
 ##  [SoC开发平台](http://www.qitas.cn)  
 

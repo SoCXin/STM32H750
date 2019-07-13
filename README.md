@@ -27,9 +27,9 @@ STM32H750 超值系列提供 128 KB Flash 和采用分散架构的 1 MB SRAM：�
 
 ### [收录资源](https://github.com/sochub/STM32F405)
 
-* [参考文档](docs/)
-* [参考资源](src/)
-    * [freeRTOS工程](freeRTOS/)
+* [文档](docs/)
+* [资源](src/)
+    * [freeRTOS](src/freeRTOS/)
 
 ### [关联资源](https://github.com/sochub)
 
@@ -42,7 +42,4 @@ STM32H750 超值系列提供 128 KB Flash 和采用分散架构的 1 MB SRAM：�
 - 对标产品 [RT1052](https://github.com/sochub/RT1052)
 - 内部集成FLASH [STM32H743](https://github.com/sochub/STM32H743)  
 
-##  [SoC开发平台](http://www.qitas.cn)  
-
-
-
+##  [SoC资源平台](http://www.qitas.cn)  

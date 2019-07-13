@@ -1,9 +1,8 @@
 ﻿# [STM32H750](https://github.com/sochub/STM32H750)
 [![sites](SoC/SoC.png)](http://www.qitas.cn) 
-#### 厂商：[ST](https://github.com/sochub/ST)
-#### 父级：[STM32](https://github.com/sochub/STM32)
+#### 父级：[STM32H7](https://github.com/sochub/STM32H7)
 #### 归属：[cortex M7](https://github.com/sochub/CM7)
-
+#### 收录芯片定级：[Level](https://github.com/sochub/Level)
 ## [描述](https://github.com/sochub/STM32H750/wiki) 
 
 [STM32H750](https://github.com/sochub/STM32H750)是[STM32H7](https://www.st.com/zh/microcontrollers-microprocessors/stm32h7-series.html)系列中的高性价比产品，参考售价2.69美金，用于对标RT1052产品，通过降低内部FLASH的配置，获得超高的性价比。
@@ -20,11 +19,20 @@ STM32H750 超值系列提供 128 KB Flash 和采用分散架构的 1 MB SRAM：�
 
 [![sites](SoC/STM32H750.png)](https://www.st.com/zh/microcontrollers-microprocessors/stm32h750-value-line.html) 
 
-### [资源收录](https://github.com/sochub/STM32H750)
+### 关键特性
 
-- [文档](docs/)
-- [资源](src/)
-- [freeRTOS工程](freeRTOS/)
+[![sites](SoC/stm32h750.jpg)](https://www.st.com/en/microcontrollers-microprocessors/stm32h750vb.html) 
+
+
+### [收录资源](https://github.com/sochub/STM32F405)
+
+* [参考文档](docs/)
+* [参考资源](src/)
+    * [freeRTOS工程](freeRTOS/)
+
+### [关联资源](https://github.com/sochub)
+
+* [编译工具](https://github.com/sochub/arm-none-eabi)
 
 ### [替代方案](https://github.com/sochub/STM32H750)
 

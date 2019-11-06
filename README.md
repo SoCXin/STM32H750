@@ -27,9 +27,9 @@
 
 ### 关键特性（核心买点）
 
-* 400 MHz CPU
+* 400 MHz CPU,1 MB SRAM
 * 35个通信接口
-* PCIe 1.1 Root Complex
+* 16(3.6 Msample/s)ADC, 12位DAC
 
 ### [收录资源](https://github.com/sochub/STM32F405)
 
@@ -43,7 +43,7 @@
 
 ### [选择建议](https://github.com/sochub)
 
-[STM32H750](https://github.com/sochub/STM32H750)最为高性价产品，在向下覆盖的情况下十分具有应用价值，携带的大量外设极大降低了相应成本，而该系列的3款产品差异只体现在封装和普通IO上面。
+[STM32H750](https://github.com/sochub/STM32H750) 是ST针对高性能控制市场推出的MCU，可谓是集大成者，拥有性能和性价比，特别是全面的外设配置，十分具有探索性，但市场持续缺货。
 
 - 对标产品 [RT1052](https://github.com/sochub/RT1052),[RT1062](https://github.com/sochub/RT1062)
 - 同系列集成FLASH版本 [STM32H743](https://github.com/sochub/STM32H743)  

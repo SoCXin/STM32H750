@@ -31,7 +31,7 @@
 * 35个通信接口
 * 16(3.6 Msample/s)ADC, 12位DAC
 
-### [收录资源](https://github.com/sochub/STM32F405)
+### [收录资源](https://github.com/sochub)
 
 * [文档](docs/)
 * [资源](src/)
@@ -45,7 +45,8 @@
 
 [STM32H750](https://github.com/sochub/STM32H750) 是ST针对高性能控制市场推出的MCU，可谓是集大成者，拥有性能和性价比，特别是全面的外设配置，十分具有探索性，但市场持续缺货。
 
-- 对标产品 [RT1052](https://github.com/sochub/RT1052),[RT1062](https://github.com/sochub/RT1062)
+- 对标NXP产品 [RT1052](https://github.com/sochub/RT1052),[RT1062](https://github.com/sochub/RT1062)
 - 同系列集成FLASH版本 [STM32H743](https://github.com/sochub/STM32H743)  
+- 可运行Linux多核处理器 [STM32MP1](https://github.com/sochub/STM32MP1)  
 
 ##  [SoC资源平台](http://www.qitas.cn)  

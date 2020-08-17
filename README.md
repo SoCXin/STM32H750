@@ -1,14 +1,14 @@
-﻿# [STM32H750](https://github.com/sochub/STM32H750)
+﻿# [STM32H750](https://github.com/SoCXin/STM32H750)
 
-[![sites](http://182.61.61.133//resources/OS-Q.png)](http://www.qitas.cn)
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### [Vendor](https://github.com/sochub/Vendor) ：[ST](https://github.com/sochub/ST)
-#### [Cortex](https://github.com/sochub/Cortex) ：[Cortex M7](https://github.com/sochub/CM7)（2.14 DMIPS/MHz）
-#### [Level](https://github.com/sochub/Level)： 2020 CoreMark/856 DMIPS @ 400 MHz
+#### [Vendor](https://github.com/SoCXin/Vendor) ：[ST](https://github.com/SoCXin/ST)
+#### [Cortex](https://github.com/SoCXin/Cortex) ：[Cortex M7](https://github.com/SoCXin/CM7)
+#### [Level](https://github.com/SoCXin/Level)： 400MHz 2020CoreMark（2.14DMIPS/MHz）
 
-## [芯片描述](https://github.com/sochub/STM32H750/wiki) 
+## [芯片描述](https://github.com/SoCXin/STM32H750/wiki)
 
-[STM32H750](https://github.com/sochub/STM32H750)是[STM32H7](https://www.st.com/zh/microcontrollers-microprocessors/stm32h7-series.html)系列中的高性价比产品，参考售价2.69美金，通过降低内部FLASH的配置，获得超高的性价比。
+[STM32H750](https://github.com/SoCXin/STM32H750)是[STM32H7](https://www.st.com/zh/microcontrollers-microprocessors/stm32h7-series.html)系列中的高性价比产品，参考售价2.69美金，通过降低内部FLASH的配置，获得超高的性价比。
 
 400 MHz CPU主频下从Flash执行程序，利用其 L1 缓存实现了零等待执行。DSP 指令集和双精度 FPU 扩大了其应用范围。得益于 L1 缓存（16 KB + 16 KB 的指令缓存和数据缓存），即使使用外部存储器也不会带来性能损失。
 
@@ -20,7 +20,7 @@
 
 分散架构的1 MB SRAM：在最低功耗模式下保存数据的192 KB TCM RAM（包括 64 KB 的 ITCM RAM 和 128 KB 的 DTCM RAM，用于时间关键型程序和数据）、512 KB、288 KB 和 64 KB 的用户 SRAM 以及 4 KB 的备份域 SRAM，此系列采用BGA 和 LQFP 规范的 LQFP100、UFBGA176 和 TFBGA240引脚封装。
 
-### 关键特性（核心买点）
+### 关键特性
 
 * 400 MHz CPU,1 MB SRAM
 * 35个通信接口
@@ -28,25 +28,22 @@
 * 片上集成 128 KB Flash
 * 片上集成 1 MB SRAM
 
-### [收录资源](https://github.com/sochub)
+### [资源收录](https://github.com/SoCXin/STM32H750)
 
 * [文档](docs/)
 * [资源](src/)
 
-### [关联资源](https://github.com/sochub)
+### [选型建议](https://github.com/SoCXin)
 
-* [编译工具](https://github.com/sochub/arm-none-eabi)
 
-### [选择建议](https://github.com/sochub)
-
-[STM32H750](https://github.com/sochub/STM32H750) 是ST针对高性能控制市场推出的MCU，可谓是集大成者，拥有性能和性价比，特别是全面的外设配置，十分具有探索性，但市场持续缺货。
+[STM32H750](https://github.com/SoCXin/STM32H750) 是ST针对高性能控制市场推出的MCU，可谓是集大成者，拥有性能和性价比，特别是全面的外设配置，十分具有探索性，但市场持续缺货。
 
 相对纯外部flash启动的设备，片上还集成有可使用的128k存储空间,只有RAM空间的1/8大小，可以针对一些特定的应用场景。
 
 产品的可替代性：
 
-* 所针对的NXP相应产品[RT1052](https://github.com/sochub/RT1052) / [RT1062](https://github.com/sochub/RT1062)
-* 同系列片上集成大容量FLASH版本 [STM32H7x3](https://github.com/sochub/STM32H743)  
-* 同品牌可运行Linux系统的多核处理器 [STM32MP1](https://github.com/sochub/STM32MP1)  
+* 所针对的NXP相应产品[RT1052](https://github.com/SoCXin/RT1052) / [RT1062](https://github.com/SoCXin/RT1062)
+* 同系列片上集成大容量FLASH版本 [STM32H7x3](https://github.com/SoCXin/STM32H743)
+* 同品牌可运行Linux系统的多核处理器 [STM32MP1](https://github.com/SoCXin/STM32MP1)
 
-##  [SoC资源平台](http://www.qitas.cn)  
+###  [SoC芯平台](http://www.SoC.Xin)

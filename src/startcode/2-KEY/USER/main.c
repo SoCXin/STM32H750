@@ -1,18 +1,4 @@
-//////////////////////////////////////////////////////////////////////////////////	 
-//±¾³ÌĞòÖ»¹©Ñ§Ï°Ê¹ÓÃ£¬Î´¾­×÷ÕßĞí¿É£¬²»µÃÓÃÓÚÆäËüÈÎºÎÓÃÍ¾
-//ÖĞ¾°Ô°µç×Ó
-//µêÆÌµØÖ·£ºhttp://shop73023976.taobao.com
-//
-//  ÎÄ ¼ş Ãû   : main.c
-//  °æ ±¾ ºÅ   : v2.0
-//  ×÷    Õß   : HuangKai
-//  Éú³ÉÈÕÆÚ   : 2018-10-31
-// ×÷    Õß   : HuangKai
-// ĞŞ¸ÄÄÚÈİ   : ´´½¨ÎÄ¼ş
-//°æÈ¨ËùÓĞ£¬µÁ°æ±Ø¾¿¡£
-//Copyright(C) ÖĞ¾°Ô°µç×Ó2018-10-31
-//All rights reserved
-//******************************************************************************/
+
 #include "sys.h"
 #include "delay.h"
 #include "usart.h"
@@ -21,32 +7,32 @@
 int main(void)
 {
 	u8 key;
-	Cache_Enable();                 //´ò¿ªL1-Cache
-	HAL_Init();				              //³õÊ¼»¯HAL¿â
-	Stm32_Clock_Init(160,5,2,4);    //ÉèÖÃÊ±ÖÓ,400Mhz 
-	delay_init(400);				        //ÑÓÊ±³õÊ¼»¯
-	uart_init(115200);			      	//´®¿Ú³õÊ¼»¯
-	LED_Init();						          //³õÊ¼»¯LED
-	KEY_Init();                     //³õÊ¼»¯°´¼ü
+	Cache_Enable();                 //æ‰“å¼€L1-Cache
+	HAL_Init();				              //åˆå§‹åŒ–HALåº“
+	Stm32_Clock_Init(160,5,2,4);    //è®¾ç½®æ—¶é’Ÿ,400Mhz
+	delay_init(400);				        //å»¶æ—¶åˆå§‹åŒ–
+	uart_init(115200);			      	//ä¸²å£åˆå§‹åŒ–
+	LED_Init();						          //åˆå§‹åŒ–LED
+	KEY_Init();                     //åˆå§‹åŒ–æŒ‰é”®
 	while(1)
 	{
 		key=KEY_Scan();
 		switch(key)
 		{
-			case 1: 
+			case 1:
 				LED0(0);
-			  LED1(1);
-			  break;
+				LED1(1);
+				break;
 
-			case 2: 
+			case 2:
 				LED0(1);
-			  LED1(0);
-			  break;
-			
-			case 3: 
+				LED1(0);
+				break;
+
+			case 3:
 				LED0(0);
-			  LED1(0);
-			  break;
+				LED1(0);
+				break;
 		}
 	}
 }

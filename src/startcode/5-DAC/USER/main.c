@@ -7,17 +7,18 @@
 #include "timer.h"
 #include "dac.h"
 #include "oled.h"
+
 int main(void)
 {
-	Cache_Enable();                 //´ò¿ªL1-Cache
-	HAL_Init();				              //³õÊ¼»¯HAL¿â
-	Stm32_Clock_Init(160,5,2,4);    //ÉèÖÃÊ±ÖÓ,400Mhz
-	delay_init(400);				        //ÑÓÊ±³õÊ¼»¯
-	uart_init(115200);			      	//´®¿Ú³õÊ¼»¯
-	KEY_Init();					          	//³õÊ¼»¯KEY
-	DAC1_Init();                    //³õÊ¼»¯DAC
-	OLED_Init();                    //³õÊ¼»¯OLED
-	DAC1_Set_Vol(2000);//vol:0~3300,´ú±í0~3.3V  ÇëÓÃÍòÓÃ±í²âÁ¿PA4Òı½Å
+	Cache_Enable();                 //æ‰“å¼€L1-Cache
+	HAL_Init();				              //åˆå§‹åŒ–HALåº“
+	Stm32_Clock_Init(160,5,2,4);    //è®¾ç½®æ—¶é’Ÿ,400Mhz
+	delay_init(400);				        //å»¶æ—¶åˆå§‹åŒ–
+	uart_init(115200);			      	//ä¸²å£åˆå§‹åŒ–
+	KEY_Init();					          	//åˆå§‹åŒ–KEY
+	DAC1_Init();                    //åˆå§‹åŒ–DAC
+	OLED_Init();                    //åˆå§‹åŒ–OLED
+	DAC1_Set_Vol(2000);//vol:0~3300,ä»£è¡¨0~3.3V  è¯·ç”¨ä¸‡ç”¨è¡¨æµ‹é‡PA4å¼•è„š
 	while(1)
 	{
 	}

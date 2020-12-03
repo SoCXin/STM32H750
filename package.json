@@ -1,0 +1,7 @@
+{
+    "name": "STM32H750",
+    "description": "ST Cortex M7 400MHz MCU",
+    "system": "*",
+    "url": "https://github.com/SoCXin/STM32H750",
+    "version": "1.0.0"
+}

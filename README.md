@@ -2,15 +2,15 @@
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### [Vendor](https://github.com/SoCXin/Vendor) ：[ST](https://github.com/SoCXin/ST)
+#### [Vendor](https://github.com/SoCXin/Vendor) ：[ST](https://www.st.com/)
 #### [Cortex](https://github.com/SoCXin/Cortex) ：[Cortex M7](https://github.com/SoCXin/CM7)
-#### [Level](https://github.com/SoCXin/Level)： 400MHz 2020CoreMark（2.14DMIPS/MHz）
+#### [Level](https://github.com/SoCXin/Level)： 400MHz x 2.14DMIPS/MHz（2020 CoreMark）
 
 ## [芯片描述](https://github.com/SoCXin/STM32H750/wiki)
 
-[STM32H750](https://github.com/SoCXin/STM32H750)是[STM32H7](https://www.st.com/zh/microcontrollers-microprocessors/stm32h7-series.html)系列中的高性价比产品，参考售价2.69美金，通过降低内部FLASH的配置，获得超高的性价比。
+[STM32H750](https://github.com/SoCXin/STM32H750)是[STM32H7](https://www.st.com/zh/microcontrollers-microprocessors/stm32h7-series.html)系列中的高性价比产品，通过降低内部FLASH的配置，获得超高的性价比。
 
-400 MHz CPU主频下从Flash执行程序，利用其 L1 缓存实现了零等待执行。DSP 指令集和双精度 FPU 扩大了其应用范围。得益于 L1 缓存（16 KB + 16 KB 的指令缓存和数据缓存），即使使用外部存储器也不会带来性能损失。
+CPU主频下从Flash执行程序，利用其 L1 缓存实现了零等待执行。DSP 指令集和双精度 FPU 扩大了其应用范围。得益于 L1 缓存（16 KB + 16 KB 的指令缓存和数据缓存），即使使用外部存储器也不会带来性能损失。
 
 2 个专用音频 PLL、3 个全双工 I²S 接口、1 个支持时分多路复用 (TDM) 模式的新串行音频接口 (SAI) 和 1 个 DFSDM（用于 Sigma-Delta 调制器或 MEMS 麦克风的数字滤波器）。
 
@@ -22,11 +22,10 @@
 
 ### 关键特性
 
-* 400 MHz CPU,1 MB SRAM
-* 35个通信接口
-* 16位ADC (3.6 Msample/s), 2个12位DAC
-* 片上集成 128 KB Flash
-* 片上集成 1 MB SRAM
+* Cortex M7 400 MHz
+* 16位ADC(3.6 MSPS), 2个12位DAC
+* 128 KB Flash + 1 MB SRAM
+*
 
 ### [资源收录](https://github.com/SoCXin/STM32H750)
 

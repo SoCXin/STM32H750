@@ -6,7 +6,7 @@ OBJ/
 Debug/
 Release/
 settings/
-iDesigner_Project/
+DebugConfig/
 *.htm
 *.dep
 *.ewt

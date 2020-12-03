@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>ADC</TargetName>
+      <TargetName>QITAS</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER, STM32H750xx</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\STM32H7xx_HAL_Driver\CORE;..\USER;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\..\STM32H7xx_HAL_Driver\Inc;..\HARDWARE\LED;..\HARDWARE\KEY;..\HARDWARE\TIMER;..\HARDWARE\OLED;..\HARDWARE\ADC;..\HARDWARE\DAC</IncludePath>
+              <IncludePath>..\..\STM32H7xx_HAL_Driver\CORE;..\USER;..\..\SYS\delay;..\..\SYS\sys;..\..\SYS\usart;..\..\STM32H7xx_HAL_Driver\Inc;..\..\BSP\LED;..\..\BSP\KEY;..\..\BSP\TIMER;..\..\BSP\OLED;..\..\BSP\ADC;..\..\BSP\DAC</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -426,17 +426,17 @@
             <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\SYSTEM\delay\delay.c</FilePath>
+              <FilePath>..\..\SYS\delay\delay.c</FilePath>
             </File>
             <File>
               <FileName>sys.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\SYSTEM\sys\sys.c</FilePath>
+              <FilePath>..\..\SYS\sys\sys.c</FilePath>
             </File>
             <File>
               <FileName>usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\SYSTEM\usart\usart.c</FilePath>
+              <FilePath>..\..\SYS\usart\usart.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -561,27 +561,27 @@
             <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\LED\led.c</FilePath>
+              <FilePath>..\..\BSP\LED\led.c</FilePath>
             </File>
             <File>
               <FileName>key.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\KEY\key.c</FilePath>
+              <FilePath>..\..\BSP\KEY\key.c</FilePath>
             </File>
             <File>
               <FileName>timer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\TIMER\timer.c</FilePath>
+              <FilePath>..\..\BSP\TIMER\timer.c</FilePath>
             </File>
             <File>
               <FileName>oled.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\OLED\oled.c</FilePath>
+              <FilePath>..\..\BSP\OLED\oled.c</FilePath>
             </File>
             <File>
               <FileName>dac.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\DAC\dac.c</FilePath>
+              <FilePath>..\..\BSP\DAC\dac.c</FilePath>
             </File>
           </Files>
         </Group>

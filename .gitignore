@@ -2,6 +2,7 @@
 .vscode/
 out/
 Obj/
+OBJ/
 Debug/
 Release/
 settings/

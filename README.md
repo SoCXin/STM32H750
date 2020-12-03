@@ -25,7 +25,6 @@ CPU主频下从Flash执行程序，利用其 L1 缓存实现了零等待执行�
 * Cortex M7 400 MHz
 * 16位ADC(3.6 MSPS), 2个12位DAC
 * 128 KB Flash + 1 MB SRAM
-*
 
 ### [资源收录](https://github.com/SoCXin/STM32H750)
 

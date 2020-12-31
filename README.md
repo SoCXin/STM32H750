@@ -3,8 +3,8 @@
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
 #### [Vendor](https://github.com/SoCXin/Vendor) ：[ST](https://www.st.com/)
-#### [Cortex](https://github.com/SoCXin/Cortex) ：[Cortex M7](https://github.com/SoCXin/CM7)
-#### [Level](https://github.com/SoCXin/Level)： 400MHz x 2.14DMIPS/MHz（2020 CoreMark）
+#### [Cortex](https://github.com/SoCXin/Cortex) ：[Cortex-M7](https://github.com/SoCXin/CM7)
+#### [Level](https://github.com/SoCXin/Level)： 400MHz x 2.14 DMIPS/MHz（2020 CoreMark）
 
 ## [芯片描述](https://github.com/SoCXin/STM32H750/wiki)
 
@@ -22,14 +22,16 @@ CPU主频下从Flash执行程序，利用其 L1 缓存实现了零等待执行�
 
 ### 关键特性
 
-* Cortex M7 400 MHz
-* 16位ADC(3.6 MSPS), 2个12位DAC
+* Cortex M7
+* 16位ADC(3.6 MSPS)
+* 2 x 12bit DAC
 * 128 KB Flash + 1 MB SRAM
 
 ### [资源收录](https://github.com/SoCXin/STM32H750)
 
-* [文档](docs/)
 * [资源](src/)
+* [文档](docs/)
+* [工程](project/)
 
 ### [选型建议](https://github.com/SoCXin)
 
@@ -38,10 +40,4 @@ CPU主频下从Flash执行程序，利用其 L1 缓存实现了零等待执行�
 
 相对纯外部flash启动的设备，片上还集成有可使用的128k存储空间,只有RAM空间的1/8大小，可以针对一些特定的应用场景。
 
-产品的可替代性：
-
-* 所针对的NXP相应产品[RT1052](https://github.com/SoCXin/RT1052) / [RT1062](https://github.com/SoCXin/RT1062)
-* 同系列片上集成大容量FLASH版本 [STM32H7x3](https://github.com/SoCXin/STM32H743)
-* 同品牌可运行Linux系统的多核处理器 [STM32MP1](https://github.com/SoCXin/STM32MP1)
-
-###  [SoC芯平台](http://www.SoC.Xin)
+###  [www.SoC.xin(芯)](http://www.SoC.Xin)

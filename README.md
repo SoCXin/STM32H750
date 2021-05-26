@@ -3,7 +3,7 @@
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://SoC.Xin)
 
 * [ST](https://www.st.com/zh/) ：[Cortex-M7](https://github.com/SoCXin/Cortex)
-* [L6R6](https://github.com/SoCXin/Level) ：480 MHz x 2.14 DMIPS/MHz (2424CoreMark)
+* [L6R5](https://github.com/SoCXin/Level) ：480 MHz x 2.14 DMIPS/MHz (2424CoreMark)
 
 ## [简介](https://github.com/SoCXin/STM32H750/wiki)
 
@@ -19,10 +19,11 @@
 
 #### 封装规格
 
-* TFBGA240 (7×7mm)
-* UFBGA176 (14×14mm)
-* LQFP144 (10×10mm)
-* LQFP100 (7×7mm)
+* TFBGA240 (14×14mm)
+* UFBGA176 (10×10mm)
+* LQFP176 (24×24mm)
+* LQFP144 (20×20mm)
+* LQFP100 (14×14mm)
 
 
 ### [资源收录](https://github.com/SoCXin)

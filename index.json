@@ -1,23 +1,28 @@
 {
     "type":"MCU",
     "name":"STM32H750",
-    "series":["STM32H750"],
-    "peripheral": ["ADC","UART","I2C","SPI","PWM"],
-    "package":["LQFP144","LQFP100","LQFP64","LQFP48","QFN36"],
+    "title": "ST STM32H750 MCU",
+    "description":"ST Cortex-M7 MCU",
+    "Core": {
+        "type":"Cortex-M7",
+        "Freq":480,
+        "DMIPS": 1027,
+        "CoreMark": 2424
+    },
     "manufacturer": {
         "vendor":"ST",
-        "homepage":"https://my.st.com/content/my_st_com/zh/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-mainstream-mcus/stm32f1-series/STM32H750.html"
+        "homepage":"https://www.st.com/content/st_com/zh/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32h7-series/stm32h750-value-line.htm"
     },
-    "url":"http://www.SoC.xin/STM32H750",
-    "repo":"https://github.com/SoCXin/STM32H750",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/STM32H750.git"
+    },
     "version":"1.0.0",
-    "Core": {
-        "num": 1,
-        "architecture":"Cortex-M3",
-        "Freq":[8,120]
-    },
-    "TIM": {
-        "resolution":[16,16,16],
-        "rate": 1024
-    }
+    "series":["STM32H750VB","STM32H750ZB","STM32H750IB","STM32H750XB"],
+    "package":["TFBGA240","UFBGA176","LQFP144","LQFP144","LQFP100"],
+    "peripheral": ["ADC","UART","I2C","SPI","PWM"],
+    "keywords": [
+        "ADC","DAC","SDIO","CAN","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
 }

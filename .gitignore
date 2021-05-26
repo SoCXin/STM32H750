@@ -7,6 +7,11 @@
 *.lck
 *.autosave
 *~
+Change*
+CHANGE*
+README*
+COPY*
+*CONTRIBU*
 *.dep
 *.log
 *.ewt
@@ -30,7 +35,13 @@ settings/
 Debug/
 # GNU/Make
 */*.s
-
+*_sc*
+*cm23*
+*cm3*
+*cm4*
+# *cm7*
+*cm1*
+*cm0*
 __pycache__/
 *.py[cod]
 *$py.class
@@ -46,10 +57,11 @@ examples/**/*.md
 .gitmodules
 **/*/README*
 LICENSE*
-*.png
+# *.png
 *.jpg
 *.rst
 # *.md
 **/*/README*
 # C extensions
 *.so
+*.dcm

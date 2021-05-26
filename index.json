@@ -19,9 +19,12 @@
     },
     "version":"1.0.0",
     "series":["STM32H750VB","STM32H750ZB","STM32H750IB","STM32H750XB"],
-    "package":["TFBGA240","UFBGA176","LQFP144","LQFP144","LQFP100"],
+    "package":["TFBGA240","UFBGA176","LQFP176","LQFP144","LQFP100"],
     "peripheral": ["ADC","UART","I2C","SPI","PWM"],
     "keywords": [
+        "dev-platform",
+        "ARM",
+        "Cortex-M",
         "ADC","DAC","SDIO","CAN","I2C","RTC","SPI",
         "3.6V","1.8V"
     ]

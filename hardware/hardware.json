@@ -1,9 +1,9 @@
 {
     "type":"MCU",
     "name":"STM32H750",
-    "package":["LQFP144","LQFP100","LQFP100"],
+    "package":["TFBGA240","UFBGA176","LQFP176","LQFP144","LQFP100"],
     "version":"1.0.0",
-    "LQFP100": {
+    "LQFP176": {
         "name":"STM32H750V",
         "peripheral": ["ADC","TIM","UART1","UART2","I2C","SPI","PWM"],
         "GPIO":18

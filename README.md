@@ -11,11 +11,12 @@
 
 [![sites](docs/STM32H750.png)](https://www.st.com/content/st_com/zh/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32h7-series/stm32h750-value-line.html)
 
-#### 关键特性
+### 关键特性
 
-* 16位ADC(3.6 MSPS)
-* 2 x 12bit DAC
+* 35个通信接口,USB PHY
+* 16bit ADC(3.6 MSPS),12bit DAC
 * 128 KB Flash + 1 MB SRAM
+* 内核功耗典型值为275 µA/MHz @VDD = 3.3 V和25 °C
 
 #### 封装规格
 
